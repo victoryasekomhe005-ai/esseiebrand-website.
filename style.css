@@ -450,7 +450,7 @@ nav{
 .menu-toggle{
     display:none;
     font-size: 28px;
-    background:none;
+    background-color:white;
     border:none;
     cursor:pointer;
 }
