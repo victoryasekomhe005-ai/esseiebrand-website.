@@ -37,14 +37,21 @@ nav {
     cursor:pointer;
     color:#000;
 }
-
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    color:#fff;
+}
+@media (max-width:768px){
     .menu-toggle{
         display:block;
     }
-@media(max-width: 768px){
-    nav{
+    .navlinks{
         display:none;
-        flex-direction:column;
+        flex-decoration:coloumn;
         position:absolute;
         top:70px;
         right:0;
@@ -52,13 +59,15 @@ nav {
         text-align:center;
         gap:20px;
         padding:20px 0;
-        border:none;
-        z-index:1000;
-         }
-    nav.active{
+        background:#222;
+    }
+    .nav-links.active{
         display:flex;
     }
-    nav a{
+
+}
+        
+nav a{
         text-decoration:none;
         padding:12px;
     }
