@@ -14,4 +14,8 @@ const whatsappURL =
 "?text=" + encodeURIComponent(whatsappMessage);
 window.open(whatsappURL, "_blank");
 });
+document.getElementById('menuToggle').addEventListener('click',function(){
+document.getElementById('navLinks').classList.toggle('active');
+});
+    
 
