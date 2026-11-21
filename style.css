@@ -447,3 +447,23 @@ nav{
     object-fit: cover;
     border-radius: 8px;
 }
+.menu-toggle{
+    display:none;
+    font-size: 28px;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+@media(max-width: 768px){
+    .memu-toggle{
+        display:block;
+    }
+    .nav-links{
+        display:none;
+        flex-direction:column;
+    }
+    .nav-links.active{
+        display:flex;
+    }
+
+}
