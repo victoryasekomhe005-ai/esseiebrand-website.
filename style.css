@@ -37,14 +37,12 @@ nav {
     cursor:pointer;
     color:#000;
 }
-.close-menu{
-    display:none;
-}
+
     .menu-toggle{
         display:block;
     }
 @media(max-width: 768px){
-    .nav-links{
+    nav{
         display:none;
         flex-direction:column;
         position:absolute;
@@ -57,10 +55,10 @@ nav {
         border:none;
         z-index:1000;
          }
-    .nav-links.active{
+    nav.active{
         display:flex;
     }
-    .nav-links a{
+    nav a{
         text-decoration:none;
         padding:12px;
     }
